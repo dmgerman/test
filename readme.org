@@ -45,7 +45,7 @@ Reference to Bayes’ rule: see equation [[eq:bayes]].
 * Align Environment
 The =align= LaTeX environment works via =#+begin_export latex=:
 
-#+begin_export latex :results both
+#+begin_export latex :exports both
 \begin{align}
 f(x) &= x^2 + 3x + 2 \\
      &= (x+1)(x+2)
